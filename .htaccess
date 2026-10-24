@@ -1,0 +1,2 @@
+# Meneruskan header Authorization ke PHP (Apache/XAMPP sering membuangnya)
+SetEnvIf Authorization "(.+)" HTTP_AUTHORIZATION=$1
